@@ -339,9 +339,143 @@ body{
 .price-btn:hover {
     background-color: #fff;
     color: black;
-  }
+}
   
 .price-btn:active {
     background-color: #ccc;
     color: #fff;
-  }
+}
+
+.main-footer{
+    display: flex;
+    background-color: #445162;
+    padding: 50px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.footer-title{
+    width: 100%;
+    text-align: center;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 400;
+    color: #ffffff;
+    margin: 0 0 30px 0;
+}
+
+.footer-form{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+.input-name{
+    height: 40px;
+    border-radius: 5px;
+}
+.input-email{
+    height: 40px;
+    border-radius: 5px;
+}
+
+.form-message{
+    height: 170px;
+    border-radius: 5px;
+}
+
+.form-botton{
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    align-self: center;
+    margin: 20px 0 0 0;
+}
+
+.form-botton:hover {
+    background-color: #fff;
+    color: black;
+}
+  
+.form-botton:active {
+    background-color: #ccc;
+    color: #fff;
+}
+
+.contacts-us{
+    width: 350px;
+}
+
+.contacts-list-item{
+    position: relative;
+    list-style-type: none;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 400;
+    color: #ffffff;
+    padding: 0 0 0 29px;
+    margin: 0 0 21px 0;
+}
+
+.contacts-list-item:nth-child(1)::before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/html/HTML5/project/img/skype_icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contacts-list-item:nth-child(2)::before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/html/HTML5/project/img/icq_icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contacts-list-item:nth-child(3)::before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/html/HTML5/project/img/email_icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.contacts-list-item:nth-child(4)::before{
+    content: "";
+    display: block;
+    width: 24px;
+    height: 26px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(/html/HTML5/project/img/phone_icon.png);
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+.text-copy{
+    width: 100%;
+    font-size: 12px;
+    line-height: 24px;
+    font-weight: 400;
+    letter-spacing: 0.025em;
+    color: #445162;
+    background-color: #f5f5f5;
+    padding: 0 0 0 0;
+}
