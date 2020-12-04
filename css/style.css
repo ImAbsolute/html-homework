@@ -74,9 +74,7 @@ body{
     background-color: #fff;
 }
 
-.content{
 
-}
 
 .about-product{
     width: 100%;
@@ -490,7 +488,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/html/HTML5/project/img/skype_icon.png);
+    background-image: url(../img/skype_icon.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -503,7 +501,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/html/HTML5/project/img/icq_icon.png);
+    background-image: url(../img/icq_icon.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -516,7 +514,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/html/HTML5/project/img/email_icon.png);
+    background-image: url(../img/email_icon.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -529,7 +527,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background-image: url(/html/HTML5/project/img/phone_icon.png);
+    background-image: url(../img/phone_icon.png);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
@@ -546,11 +544,31 @@ body{
     width: 45px;
     height: 45px;
     box-sizing: border-box;
-    border: 1px solid #fff;
+
     padding: 0;
     margin: 0 10px 0 0;
 }
 
+.fa-twitter-square{
+    text-decoration: none;
+    color: white;
+}
+.fa-google{
+    text-decoration: none;
+    color: white;
+}
+.fa-facebook{
+    text-decoration: none;
+    color: white;
+}
+.fa-invision{
+    text-decoration: none;
+    color: white;
+}
+.fa-youtube{
+    text-decoration: none;
+    color: white;
+}
 
 
 .text-copy{
